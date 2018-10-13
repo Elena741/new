@@ -1,10 +1,10 @@
 <?php
 
-$name = "Елена";
-$age = "48 лет";
-$email = "solo741@yandex.ru";
-$sity = "Невинномысск";
-$about = "начинающий веб-разработчик";
+$name = 'Елена';
+$age = '48 лет';
+$email = 'solo741@yandex.ru';
+$sity = 'Невинномысск';
+$about = 'начинающий веб-разработчик';
 ?>
 <!DOCTYPE>
 <html lang="ru">
@@ -40,7 +40,7 @@ $about = "начинающий веб-разработчик";
        		<h1><?= $name?></h1>
        		<h2><?= $about?></h2>
        		<hr>
-       		<p><?= $age."  -  ".$sity?></p>
+       		<p><?= $age.'  -  '.$sity?></p>
        		<a href="mailto:<?= $email ?>"><?= $email ?></a>
        </div>
     </body>
